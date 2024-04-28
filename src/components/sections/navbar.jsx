@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar () {
   const [isChecked, setIsChecked] = useState(false)
@@ -76,28 +77,28 @@ function Navbar () {
               <div className='text-gray-600 dark:text-gray-300 lg:pr-4'>
                 <ul className='space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0'>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      to='/'
                       className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
                     >
                       <span>Home</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/about'
+                    <Link
+                      to='/about'
                       className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
                     >
                       <span>About</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='#'
+                    <Link
+                      to='#'
                       className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
                     >
                       <span>Terms & Services</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
