@@ -85,7 +85,7 @@ function Navbar () {
                   </li>
                   <li>
                     <a
-                      href='#'
+                      href='/about'
                       className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
                     >
                       <span>About</span>

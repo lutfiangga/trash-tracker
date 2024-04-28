@@ -1,6 +1,6 @@
 import Navbar from './navbar'
 import Button from '../button'
-import { dataMitra } from '../../utils/mitra'
+import { dataMitra } from '../../utils/link'
 import btlharmony from '../../img/bantul-harmony.svg'
 import uaa from '../../img/uaa.png'
 import si from '../../img/si.png'
