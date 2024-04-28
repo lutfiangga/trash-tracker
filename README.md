@@ -1,8 +1,28 @@
-# React + Vite
+# Monitoring Rute Pengambilan Sampah Dusun Karangber Guwosari Pajangan Bantul
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah sebuah website monitoring rute pengambilan sampah di Dusun Karangber Guwosari Pajangan Bantul.
 
-Currently, two official plugins are available:
+Website ini dikembangkan menggunakan teknologi React dan Vite.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Cara Menggunakan
+
+1. Instal Yarn atau npm
+
+   ```
+   yarn
+   ```
+
+   atau
+
+   ```
+   npm install
+   ```
+
+2. Jalankan
+   ```
+   yarn dev
+   ```
+   atau
+   ```
+   npm run dev
+   ```
