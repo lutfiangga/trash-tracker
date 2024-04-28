@@ -1,13 +1,16 @@
-import trash from '../img/trashworld.svg'
+import trash from '../img/trash.svg'
 
-const NotFound = () => {
+
+import React from 'react'
+
+function ServerError () {
   return (
     <>
       <div className='grid h-screen place-content-center bg-white dark:bg-gray-800 px-4 relative'>
         <div className='text-center'>
-            <p className='absolute -top-52 sm:-top-52 md:-top-56 lg:-top-60 left-0 w-full h-full flex items-center justify-center text-5xl lg:text-7xl text-gray-800 dark:text-gray-300 font-extrabold'>
-              404 Not Found
-            </p>
+          <p className='absolute -top-44 sm:-top-52 md:-top-56 lg:-top-60 left-0 w-full h-full flex items-center justify-center text-5xl lg:text-7xl text-wrap text-gray-800 dark:text-gray-300 font-extrabold'>
+            500 Internal Server Error
+          </p>
           <div className='relative'>
             <img className='w-[450px]' src={trash} alt='404 Not Found' />
           </div>
@@ -29,4 +32,4 @@ const NotFound = () => {
   )
 }
 
-export default NotFound
+export default ServerError
