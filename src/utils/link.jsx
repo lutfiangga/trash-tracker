@@ -114,3 +114,131 @@ export const features = [
     )
   }
 ]
+
+export const faq = [
+  {
+    id: 1,
+    title: 'Lorem ipsum dolor sit amet consectetur adipisicing?',
+    desk: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!',
+    iconDeactive: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        class='absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='#1679AB'
+        stroke-width='2'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    ),
+    iconActive: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        class='absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='#1679AB'
+        stroke-width='2'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    )
+  },
+  {
+    id: 2,
+    title: 'Lorem ipsum dolor sit amet consectetur adipisicing?',
+    desk: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!',
+    iconDeactive: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        class='absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='#1679AB'
+        stroke-width='2'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    ),
+    iconActive: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        class='absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='#1679AB'
+        stroke-width='2'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    )
+  },
+  {
+    id: 3,
+    title: 'Lorem ipsum dolor sit amet consectetur adipisicing?',
+    desk: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!',
+    iconDeactive: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        class='absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='#1679AB'
+        stroke-width='2'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    ),
+    iconActive: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        class='absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='#1679AB'
+        stroke-width='2'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    )
+  }
+]
+
+export const routingMap = {
+  title: 'Garbage Collect Map Routes',
+  src: 'https://www.google.com/maps/d/embed?mid=1EU5QLa_zqiikm1EC9wsbnqQU0sTjvwc&output=embed&dg=feature',
+  width: '620',
+  height: '480'
+}
+
+export const Map = {
+  title: 'Peta Wilayah Dusun Karangber Pajangan',
+  src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.0209667830522!2d110.30666035!3d-7.892874899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aff380c8399bf%3A0x9274169c4b0f3ae!2sKarangber%2C%20Guwosari%2C%20Kec.%20Pajangan%2C%20Kabupaten%20Bantul%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1714363911940!5m2!1sid!2sid',
+  width: '620',
+  height: '480'
+}

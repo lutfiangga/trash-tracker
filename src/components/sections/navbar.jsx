@@ -1,11 +1,22 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 function Navbar () {
   const [isChecked, setIsChecked] = useState(false)
+  const [activeLink, setActiveLink] = useState('')
+  const location = useLocation()
+
+  useEffect(() => {
+    setActiveLink(location.pathname)
+  }, [location])
 
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked)
+  }
+
+  const handleLinkClick = link => {
+    setActiveLink(link)
+    setIsChecked(false)
   }
 
   return (
@@ -24,9 +35,9 @@ function Navbar () {
         <div className='xl:container m-auto px-6 md:px-12 lg:px-6'>
           <div className='flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0 lg:py-5'>
             <div className='w-full items-center flex justify-between lg:w-auto'>
-              <a
+              <Link
+                to='/'
                 className='relative z-10 flex items-center'
-                href='/'
                 aria-label='logo'
               >
                 <svg
@@ -54,7 +65,7 @@ function Navbar () {
                 <p className='text-2xl font-bold dark:text-gray-300 absolute top-1 left-11'>
                   Rubdar
                 </p>
-              </a>
+              </Link>
               <label
                 htmlFor='hbr'
                 className='peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden'
@@ -79,7 +90,11 @@ function Navbar () {
                   <li>
                     <Link
                       to='/'
-                      className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
+                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                        activeLink === '/' &&
+                        'text-sky-400 dark:text-sky-400Light'
+                      }`}
+                      onClick={() => handleLinkClick('/')}
                     >
                       <span>Home</span>
                     </Link>
@@ -87,15 +102,23 @@ function Navbar () {
                   <li>
                     <Link
                       to='/about'
-                      className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
+                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                        activeLink === '/about' &&
+                        'text-sky-400 dark:text-sky-400Light'
+                      }`}
+                      onClick={() => handleLinkClick('/about')}
                     >
-                      <span>About</span>
+                      <span>About the Hamlet</span>
                     </Link>
                   </li>
                   <li>
                     <Link
                       to='#'
-                      className='block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light'
+                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                        activeLink === '#' &&
+                        'text-sky-400 dark:text-sky-400Light'
+                      }`}
+                      onClick={() => handleLinkClick('#')}
                     >
                       <span>Terms & Services</span>
                     </Link>
@@ -105,7 +128,9 @@ function Navbar () {
 
               <div className='w-full space-y-2 border-primary/10 dark:border-gray-700 -ml-1 sm:flex-row lg:space-y-0 md:w-max'>
                 <a
-                  href='https://dusunkarangber.my.id/' target='_blank' rel="noreferrer"
+                  href='https://dusunkarangber.my.id/'
+                  target='_blank'
+                  rel='noreferrer'
                   className='relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-600 dark:before:bg-sky-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95'
                 >
                   <span className='relative text-sm font-semibold text-white dark:text-gray-900'>

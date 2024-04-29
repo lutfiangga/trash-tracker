@@ -1,15 +1,34 @@
-import placeholder from '../../img/placeholder.png'
-import Maps from '../maps'
+import RoutingMaps from '../routingMap'
+import Feature from './feature'
+
 function Main () {
   return (
     <>
-      <section className='text-gray-600 body-font mt-4 sm:mt-6 md:mt-12 lg:mt-20'>
-        <div className='grr max-w-7xl mx-auto text-center'>
-          <h1 className='mb-8 lg:text-7xl text-4xl md:text-5xl Avenir font-semibold text-slate-500 dark:text-gray-300 text-center'>
-            Monitor Your <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-500 dark:to-cyan-300'> Garbage Route Here.</span>
-          </h1>
-          <div className='container flex flex-col items-center justify-center mx-auto rounded-lg '>
-           <Maps/>
+      <section>
+        <div className='pt-24'>
+          <div className='relative mx-auto px-6 max-w-6xl text-gray-500'>
+            <img
+              className='absolute w-full right-0 top-0 object-cover'
+              src='https://i.ibb.co/8D7rcYv/download.webp'
+              alt='gambar'
+              decoding='async'
+              loading='lazy'
+              style={{ width: '100%', height: '100%' }}
+            />
+            <div className='relative grid gap-12 md:gap-0 md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-24'>
+              <Feature />
+              <div className='overflow-hidden lg:col-span-3 bg-white dark:bg-gray-900'>
+                <div>
+                  <div>
+                    <pre className='px-[--card-padding]'>
+                      <code className='text-sm font-mono'>
+                        <RoutingMaps />
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

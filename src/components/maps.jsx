@@ -1,16 +1,23 @@
+import { Map } from '../utils/link'
+
 function Maps () {
   return (
     <>
-      <iframe
-        title='maps'
-        src='https://www.google.com/maps/d/embed?mid=1EU5QLa_zqiikm1EC9wsbnqQU0sTjvwc&ehbc=2E312F'
-        width='1200'
-        height='600'
-        style={{ border: '0', borderRadius:'20px' }}
-        allowFullScreen={true}
-        loading='lazy'
-        referrerPolicy='no-referrer-when-downgrade'
-      ></iframe>
+    <section className='mt-24'>
+      <div className='aspect-w-16 aspect-h-9'>
+        <iframe
+          className='w-3/4 h-54 justify-center mx-auto'
+          title={Map.title}
+          src={Map.src}
+          width={Map.width}
+          height={Map.height}
+          style={{ border: '0', borderRadius: '20px' }}
+          allowFullScreen={true}
+          loading='lazy'
+          referrerPolicy='no-referrer-when-downgrade'
+        ></iframe>
+      </div>
+    </section>
     </>
   )
 }

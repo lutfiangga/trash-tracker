@@ -1,19 +1,18 @@
-import Button from "../components/button";
-import Header from "../components/sections/header"
-import Footer from "../components/sections/footer";
-import Main from "../components/sections/main";
-import Feature from "../components/sections/feature";
+import Button from '../components/button'
+import Header from '../components/sections/header'
+import Footer from '../components/sections/footer'
+import Main from '../components/sections/main'
+import Faq from '../components/sections/faq'
 
 const Home = () => {
-
-return (
+  return (
     <>
-    <Header/>
-    <Main/>
-    <Feature/>
-    <Footer/>
+      <Header />
+      <Main />
+      <Faq/>
+      <Footer />
     </>
-);
+  )
 }
 
 export default Home
