@@ -12,20 +12,20 @@ function Header () {
         <Navbar />
         <div className='bg-white relative pt-40 pb-20 lg:pt-36 dark:bg-gray-900 mx-8'>
           <div className='relative xl:container m-auto px-6 md:px-12 lg:px-6'>
-            <h1 className='sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white'>
-             Monitor Garbage Collection <br className='lg:block hidden' />{' '}
-              <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300'>
-                  Routes Easily
+            <h1 data-aos="fade-down" data-aos-once="true" className='sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white'>
+              Monitor Garbage Collection <br className='lg:block hidden' />{' '}
+              <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-500 dark:to-cyan-300'>
+                Routes Easily
               </span>
               .
             </h1>
-            <div className='lg:flex'>
+            <div data-aos="fade-down" data-aos-once="true" className='lg:flex'>
               <div className='relative mt-8 md:mt-16 space-y-12 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12'>
                 <p className='sm:text-lg text-gray-700 dark:text-gray-300 lg:w-10/12'>
-                  Welcome to our garbage collection route monitoring service! With
-                  our platform, you can monitor and optimize garbage collection
-                  routes efficiently. Together we keep our city clean. Start
-                  monitoring your garbage collection routes now!
+                  Welcome to our garbage collection route monitoring service!
+                  With our platform, you can monitor and optimize garbage
+                  collection routes efficiently. Together we keep our city
+                  clean. Start monitoring your garbage collection routes now!
                 </p>
                 <span className='block font-semibold text-gray-500 dark:text-gray-400'>
                   The Best Partner in Developing this Stunning Website.
@@ -57,14 +57,14 @@ function Header () {
                   />
                 </div> */}
                 {/* mitra */}
-                <div className='flex gap-4 justify-center grayscale lg:w-2/3'>
+                <div className='flex gap-4 justify-center lg:w-2/3'>
                   {dataMitra.map((item, index) => {
                     const gambar = [btlharmony, uaa, si][index]
                     return (
                       <img
                         key={item.id}
                         src={gambar}
-                        className={item.color}
+                        className={`grayScaleImg ${item.color}`}
                         alt={item.imgAlt}
                         onClick={() => (window.location.href = item.href)}
                       />

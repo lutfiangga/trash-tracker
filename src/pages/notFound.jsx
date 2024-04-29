@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import trash from '../img/trashworld.svg'
 
 const NotFound = () => {
@@ -17,11 +18,11 @@ const NotFound = () => {
 
           <p className='mt-4 text-gray-500 dark:text-slate-500'>
             We can't find that page. Back to{' '}
-            <a href='/'>
+            <Link to='/'>
               <span className='font-semibold dark:text-gray-300 text-gray-900/80 underline'>
                 Homepage
               </span>
-            </a>
+            </Link>
           </p>
         </div>
       </div>
