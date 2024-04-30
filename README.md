@@ -8,32 +8,28 @@ Website ini dikembangkan menggunakan teknologi React dan Vite.js.
 
 
 
-1. Open Git Bash
+## 1. Open Git Bash
 
-2. Clone Repository
+## 2. Clone Repository
 
    ```
    git clone https://github.com/lutfiangga/trash-tracker.git
    ```
 
-3. Instal Yarn atau npm ( Recomended Yarn )
+## 3. Open Directory
+
+   ```
+   cd trash-tracker
+   ```
+
+## 4. Instal Yarn
 
    ```
    yarn
    ```
 
-   atau
-
-   ```
-   npm install
-   ```
-
-4. Jalankan ( Recomended Yarn )
+## 5. Jalankan
 
    ```
    yarn dev
-   ```
-   atau
-   ```
-   npm run dev
    ```
