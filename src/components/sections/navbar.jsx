@@ -127,8 +127,8 @@ function Navbar () {
               </div>
 
               <div className='w-full space-y-2 border-primary/10 dark:border-gray-700 -ml-1 sm:flex-row lg:space-y-0 md:w-max'>
-                <a
-                  href='https://dusunkarangber.my.id/'
+                <Link
+                  to='https://dusunkarangber.my.id/'
                   target='_blank'
                   rel='noreferrer'
                   className='relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-600 dark:before:bg-sky-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95'
@@ -136,7 +136,7 @@ function Navbar () {
                   <span className='relative text-sm font-semibold text-white dark:text-gray-900'>
                     Our Official Website
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -84,7 +84,7 @@ function AboutUs () {
                     return (
                       <div key={item.id}>
                         <details open={false} className='cursor-pointer'>
-                          <summary className='flex items-center focus:outline-none'>
+                          <summary className='flex items-center focus:outline-none list-none'>
                             {item.icon}
                             <h1 className='mx-4 text-xl text-gray-700 dark:text-white'>
                               {item.title}
@@ -113,7 +113,7 @@ function AboutUs () {
                     return (
                       <div key={item.id}>
                         <details open={false} className='cursor-pointer'>
-                          <summary className='flex items-center focus:outline-none'>
+                          <summary className='flex items-center focus:outline-none list-none'>
                             {item.icon}
                             <h1 className='mx-4 text-xl text-gray-700 dark:text-white'>
                               {item.title}

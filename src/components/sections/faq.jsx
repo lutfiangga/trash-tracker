@@ -21,7 +21,7 @@ function Faq () {
             {faq.map(item => {
               return (
                 <details class='p-6 group' key={item.id}>
-                  <summary class='flex items-center justify-between cursor-pointer'>
+                  <summary class='flex items-center justify-between cursor-pointer list-none'>
                     <h5 class='text-lg font-medium text-gray-900 dark:text-gray-300'>
                       {item.title}
                     </h5>
@@ -33,7 +33,9 @@ function Faq () {
                     </span>
                   </summary>
 
-                  <p class='mt-4 leading-relaxed text-gray-700 dark:text-gray-500'>{item.desk}</p>
+                  <p class='mt-4 leading-relaxed text-gray-700 dark:text-gray-500'>
+                    {item.desk}
+                  </p>
                 </details>
               )
             })}
