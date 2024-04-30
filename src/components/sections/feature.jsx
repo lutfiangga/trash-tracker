@@ -11,7 +11,7 @@ function Feature () {
               Features
             </span>
           </h2>
-          <p className='mt-6 text-gray-700 dark:text-gray-300'>
+          <p className='mt-6 text-gray-700 dark:text-gray-500'>
             Harum quae dolore inventore repudiandae? orrupti aut temporibus
             assumenda atque ab, accusamus sit, molestiae veniam laboriosam
             pariatur.
@@ -22,7 +22,7 @@ function Feature () {
             {features.map((item) => {
               return (
                 <div className='relative pl-16' key={item.id}>
-                  <dt className='text-base md:text-xs font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+                  <dt className='text-base flex items-center my-auto md:text-xs font-semibold leading-7 text-gray-900 dark:text-gray-300'>
                     <div className='absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-700'>
                       {item.icon}
                     </div>

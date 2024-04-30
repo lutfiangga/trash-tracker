@@ -33,7 +33,7 @@ function Faq () {
                     </span>
                   </summary>
 
-                  <p class='mt-4 leading-relaxed text-gray-700'>{item.desk}</p>
+                  <p class='mt-4 leading-relaxed text-gray-700 dark:text-gray-500'>{item.desk}</p>
                 </details>
               )
             })}

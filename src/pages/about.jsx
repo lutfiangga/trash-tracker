@@ -1,5 +1,5 @@
 import Map from '../components/maps'
-import Dusun from '../components/sections/dusun'
+import AboutUs from '../components/sections/about'
 import Footer from '../components/sections/footer'
 import Navbar from '../components/sections/navbar'
 
@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Navbar />
       <Map />
-      <Dusun/>
+      <AboutUs/>
       <Footer />
     </>
   )

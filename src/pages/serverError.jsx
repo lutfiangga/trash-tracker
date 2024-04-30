@@ -1,4 +1,4 @@
-import trash from '../img/trash.svg'
+import trash from '../assets/img/trash.svg'
 
 
 import React from 'react'

@@ -1,3 +1,5 @@
+import { icon } from 'leaflet'
+
 export const dataMitra = [
   {
     id: 1,
@@ -242,3 +244,135 @@ export const Map = {
   width: '620',
   height: '480'
 }
+
+export const aboutWebsite = [
+  {
+    id: 1,
+    title: 'What is Runyam?',
+    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    icon: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='flex-shrink-0 w-6 h-6 text-blue-500'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='2'
+          d='M12 4v16m8-8H4'
+        />
+      </svg>
+    )
+  },
+  {
+    id: 2,
+    title: 'Why must be Runyam?',
+    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    icon: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='flex-shrink-0 w-6 h-6 text-blue-500'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='2'
+          d='M12 4v16m8-8H4'
+        />
+      </svg>
+    )
+  },
+  {
+    id: 3,
+    title: 'What are the benefits of this website?',
+    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    icon: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='flex-shrink-0 w-6 h-6 text-blue-500'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='2'
+          d='M12 4v16m8-8H4'
+        />
+      </svg>
+    )
+  }
+]
+
+export const aboutDusun = [
+  {
+    id: 1,
+    title: 'Where is Karangber Hamlet?',
+    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    icon: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='flex-shrink-0 w-6 h-6 text-blue-500'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='2'
+          d='M12 4v16m8-8H4'
+        />
+      </svg>
+    )
+  },
+  {
+    id: 2,
+    title: 'Who is the head of village?',
+    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    icon: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='flex-shrink-0 w-6 h-6 text-blue-500'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='2'
+          d='M12 4v16m8-8H4'
+        />
+      </svg>
+    )
+  },
+  {
+    id: 3,
+    title: 'What potential is there in Krangber hamlet?',
+    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    icon: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='flex-shrink-0 w-6 h-6 text-blue-500'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='2'
+          d='M12 4v16m8-8H4'
+        />
+      </svg>
+    )
+  }
+]

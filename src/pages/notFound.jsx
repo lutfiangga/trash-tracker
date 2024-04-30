@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import trash from '../img/trashworld.svg'
+import trash from '../assets/img/trashworld.svg'
 
 const NotFound = () => {
   return (

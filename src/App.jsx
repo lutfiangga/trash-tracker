@@ -3,6 +3,7 @@ import Home from './pages/home'
 import NotFound from './pages/notFound'
 import ServerError from './pages/serverError'
 import About from './pages/about'
+import Tnc from './pages/tnc'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />}/>
+          <Route path="/tnc" element={<Tnc />}/>
           <Route path="*" element={<NotFound />}/>
           <Route path='/error500' element={<ServerError />} />
         </Routes>

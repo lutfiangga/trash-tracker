@@ -63,7 +63,7 @@ function Navbar () {
                   <circle cx='189' cy='45' r='21' fill='currentColor' />
                 </svg>
                 <p className='text-2xl font-bold dark:text-gray-300 absolute top-1 left-11'>
-                  Rubdar
+                  Runyam
                 </p>
               </Link>
               <label
@@ -108,19 +108,19 @@ function Navbar () {
                       }`}
                       onClick={() => handleLinkClick('/about')}
                     >
-                      <span>About the Hamlet</span>
+                      <span>About Us</span>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to='#'
+                      to='/tnc'
                       className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
-                        activeLink === '#' &&
+                        activeLink === '/tnc' &&
                         'text-sky-400 dark:text-sky-400Light'
                       }`}
-                      onClick={() => handleLinkClick('#')}
+                      onClick={() => handleLinkClick('/tnc')}
                     >
-                      <span>Terms & Services</span>
+                      <span>Terms & Conditions</span>
                     </Link>
                   </li>
                 </ul>
