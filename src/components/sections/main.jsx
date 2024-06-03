@@ -1,3 +1,6 @@
+import Mapbox from '../../utils/_maps'
+import MapboxGLMap from '../../utils/_maps'
+import MapComponent from '../../utils/_maps'
 import RoutingMaps from '../routingMap'
 import Feature from './feature'
 
@@ -22,7 +25,7 @@ function Main () {
                   <div>
                     <pre className='px-[--card-padding]'>
                       <code className='text-sm font-mono'>
-                        <RoutingMaps />
+                        <MapboxGLMap/>
                       </code>
                     </pre>
                   </div>
