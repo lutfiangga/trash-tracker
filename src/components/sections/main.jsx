@@ -23,11 +23,11 @@ function Main () {
               <div className='overflow-hidden lg:col-span-3 bg-white dark:bg-gray-900'>
                 <div>
                   <div>
-                    <pre className='px-[--card-padding]'>
+                    <MapboxGLMap />
+                    {/* <pre className='px-[--card-padding]'>
                       <code className='text-sm font-mono'>
-                        <MapboxGLMap/>
                       </code>
-                    </pre>
+                    </pre> */}
                   </div>
                 </div>
               </div>
