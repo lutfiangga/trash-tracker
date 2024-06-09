@@ -12,25 +12,26 @@ function Feature () {
             </span>
           </h2>
           <p className='mt-6 text-gray-700 dark:text-gray-500'>
-            Harum quae dolore inventore repudiandae? orrupti aut temporibus
-            assumenda atque ab, accusamus sit, molestiae veniam laboriosam
-            pariatur.
+            Experience seamless navigation and organization with our array of features tailored to enhance your journey, every step of the way.
           </p>
         </div>
-        <div className='mx-auto mt-4 max-w-2xl sm:mt-6 lg:mt-8 lg:max-w-4xl'>
+        <div className='mx-auto items-center mt-4 max-w-2xl sm:mt-6 lg:mt-8 lg:max-w-4xl'>
           <dl className='grid max-w-xl grid-cols-1 gap-x-2 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-8'>
-            {features.map((item) => {
+            {features.map(item => {
               return (
-                <div className='relative pl-16' key={item.id}>
-                  <dt className='text-base flex items-center my-auto md:text-xs font-semibold leading-7 text-gray-900 dark:text-gray-300'>
-                    <div className='absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-700'>
+                <div
+                  className='relative flex items-center'
+                  key={item.id}
+                >
+                  <dt className='flex items-center text-base font-semibold leading-7 text-gray-900 dark:text-gray-300'>
+                    <div className='absolute left-0 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-700'>
                       {item.icon}
                     </div>
-                    {item.title}
+                    <span className='ml-16'>{item.title}</span>
                   </dt>
                   {/* <dd className='mt-2 text-base leading-7 text-gray-600'>
-                            {item.desk}
-                          </dd> */}
+          {item.desk}
+        </dd> */}
                 </div>
               )
             })}

@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react'
 import mapboxgl from 'mapbox-gl'
-
 import 'mapbox-gl/dist/mapbox-gl.css'
-import Coordinates from './coordinats'
+import Coordinates from './coordinates'
 
 const PinPoints = () => {
   return [
-    { id: 'Start at Unjaya', coordinates: [110.323706, -7.805135] },
-    { id: 'Past UMY', coordinates: [110.323529, -7.810709] },
-    { id: 'Ends at UAA', coordinates: [110.324648, -7.818936] }
+    { id: 'A', coordinates: [110.308543, -7.891692] },
+    { id: 'B', coordinates: [110.307128, -7.891622] },
+    { id: 'C', coordinates: [110.304595, -7.892419] },
+    { id: 'D', coordinates: [110.304867, -7.893281] },
+    { id: 'E', coordinates: [110.307, -7.892915] }
   ]
 }
 
@@ -19,8 +20,8 @@ const MapboxGLMap = () => {
     const map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v12',
-      center: [110.324311, -7.810918], // starting position [lng, lat]
-      zoom: 13 // starting zoom
+      center: [110.306511, -7.892299], // starting position [lng, lat]
+      zoom: 16 // starting zoom
     })
 
     map.on('load', () => {
@@ -128,18 +129,13 @@ const MapboxGLMap = () => {
   }, [])
 
   return (
-    <>
+    <div className='relative py-48'>
       <div
         id='map'
-        style={{
-          position: 'absolute',
-          top: 0,
-          bottom: 0,
-          width: '60%',
-          borderRadius: 10
-        }}
+        className='absolute top-0 left-0 w-full h-full'
+        style={{ borderRadius: '20px' }}
       ></div>
-    </>
+    </div>
   )
 }
 

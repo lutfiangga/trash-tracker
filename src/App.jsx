@@ -4,6 +4,7 @@ import NotFound from './pages/notFound'
 import ServerError from './pages/serverError'
 import About from './pages/about'
 import Tnc from './pages/tnc'
+import Pnp from './pages/pnp'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/tnc" element={<Tnc />}/>
+          <Route path="/pnp" element={<Pnp />}/>
           <Route path="*" element={<NotFound />}/>
           <Route path='/error500' element={<ServerError />} />
         </Routes>

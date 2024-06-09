@@ -1,3 +1,4 @@
+import Layout from '../components/layout'
 import Map from '../components/maps'
 import AboutUs from '../components/sections/about'
 import Footer from '../components/sections/footer'
@@ -7,9 +8,11 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <Map />
-      <AboutUs/>
-      <Footer />
+      <Layout>
+        <Map />
+        <AboutUs />
+        <Footer />
+      </Layout>
     </>
   )
 }

@@ -1,18 +1,18 @@
 import Navbar from '../components/sections/navbar'
 import Footer from '../components/sections/footer'
-import TermsCondition from '../components/sections/tnc'
+import Privacy from '../components/sections/privacy'
 import Layout from '../components/layout'
 
-const Tnc = () => {
+const Pnp = () => {
   return (
     <>
       <Navbar />
       <Layout>
-        <TermsCondition />
+        <Privacy />
         <Footer />
       </Layout>
     </>
   )
 }
 
-export default Tnc
+export default Pnp

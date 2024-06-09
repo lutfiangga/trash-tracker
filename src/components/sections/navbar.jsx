@@ -123,6 +123,18 @@ function Navbar () {
                       <span>Terms & Conditions</span>
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to='/pnp'
+                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                        activeLink === '/pnp' &&
+                        'text-sky-400 dark:text-sky-400Light'
+                      }`}
+                      onClick={() => handleLinkClick('/pnp')}
+                    >
+                      <span>Privacy Policy</span>
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

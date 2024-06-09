@@ -1,7 +1,4 @@
-import Mapbox from '../../utils/_maps'
 import MapboxGLMap from '../../utils/_maps'
-import MapComponent from '../../utils/_maps'
-import RoutingMaps from '../routingMap'
 import Feature from './feature'
 
 function Main () {
@@ -23,11 +20,12 @@ function Main () {
               <div className='overflow-hidden lg:col-span-3 bg-white dark:bg-gray-900'>
                 <div>
                   <div>
+                    <div className='px-[--card-padding]'>
+                      <div className='text-sm font-mono'>
                     <MapboxGLMap />
-                    {/* <pre className='px-[--card-padding]'>
-                      <code className='text-sm font-mono'>
-                      </code>
-                    </pre> */}
+                    {/* <RoutingMaps/> */}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

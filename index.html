@@ -9,5 +9,14 @@
   <body>
     <div id="root" class="overflow-hidden"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      let title = document.title
+      window.addEventListener('blur', () => {
+        document.title = "Jangan lupa balik lagi ya!"
+      })
+      window.addEventListener('focus', () => {
+        document.title = title;
+      })
+    </script>
   </body>
 </html>

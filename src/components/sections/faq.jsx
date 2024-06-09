@@ -13,7 +13,7 @@ function Faq () {
               </span>
             </h2>
             <p class='max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600'>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              Find Answers to Frequently Asked Questions
             </p>
           </div>
 
