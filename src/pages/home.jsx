@@ -3,6 +3,7 @@ import Footer from '../components/sections/footer'
 import Main from '../components/sections/main'
 import Faq from '../components/sections/faq'
 import Layout from '../components/layout'
+import Contact from '../components/sections/contact'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Header />
         <Main />
         <Faq />
+        <Contact/>
         <Footer />
       </Layout>
     </>

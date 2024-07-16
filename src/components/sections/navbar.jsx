@@ -31,7 +31,7 @@ function Navbar () {
         checked={isChecked}
         onChange={handleCheckboxChange}
       />
-      <nav className='fixed z-20 w-full bg-white/90 dark:bg-gray-900/80 backdrop-blur navbar shadow-2xl shadow-gray-600/5 border-b border-gray-100 dark:border-gray-800 peer-checked:navbar-active dark:shadow-none'>
+      <nav className='fixed z-20 w-full bg-gray-900/80 backdrop-blur navbar border-b border-gray-800 peer-checked:navbar-active shadow-none'>
         <div className='xl:container m-auto px-6 md:px-12 lg:px-6'>
           <div className='flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0 lg:py-5'>
             <div className='w-full items-center flex justify-between lg:w-auto'>
@@ -41,7 +41,7 @@ function Navbar () {
                 aria-label='logo'
               >
                 <svg
-                  className='h-9 text-[#007FEC] dark:text-[#00B1FD]'
+                  className='h-9 text-[#00B1FD]'
                   viewBox='0 0 942 272'
                   fill='none'
                   xmlns='http://www.w3.org/2000/svg'
@@ -62,7 +62,7 @@ function Navbar () {
                   />
                   <circle cx='189' cy='45' r='21' fill='currentColor' />
                 </svg>
-                <p className='text-2xl font-bold dark:text-gray-300 absolute top-1 left-11'>
+                <p className='text-2xl font-bold text-gray-300 absolute top-1 left-11'>
                   Runyam
                 </p>
               </Link>
@@ -72,27 +72,27 @@ function Navbar () {
               >
                 <div
                   aria-hidden='true'
-                  className='m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300'
+                  className='m-auto h-0.5 w-5 rounded bg-gray-300 transition duration-300'
                 ></div>
                 <div
                   aria-hidden='true'
-                  className='m-auto mt-2 h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300'
+                  className='m-auto mt-2 h-0.5 w-5 rounded bg-gray-300 transition duration-300'
                 ></div>
               </label>
             </div>
             <div
-              className={`navmenu w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-400/80 rounded-3xl shadow-2xl shadow-gray-300/20 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none lg:border-0 ${
+              className={`navmenu w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-400/80 rounded-3xl  shadow-gray-300/20 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none shadow-none lg:border-0 ${
                 isChecked ? 'block' : 'hidden'
               }`}
             >
-              <div className='text-gray-600 dark:text-gray-300 lg:pr-4'>
+              <div className='text-gray-300 lg:pr-4'>
                 <ul className='space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0'>
                   <li>
                     <Link
                       to='/'
-                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                      className={`block md:px-4 transition hover:hover:text-sky-400 ${
                         activeLink === '/' &&
-                        'text-sky-400 dark:text-sky-400Light'
+                        'text-sky-400'
                       }`}
                       onClick={() => handleLinkClick('/')}
                     >
@@ -102,9 +102,9 @@ function Navbar () {
                   <li>
                     <Link
                       to='/about'
-                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                      className={`block md:px-4 transition hover:hover:text-sky-400 ${
                         activeLink === '/about' &&
-                        'text-sky-400 dark:text-sky-400Light'
+                        'text-sky-400'
                       }`}
                       onClick={() => handleLinkClick('/about')}
                     >
@@ -114,9 +114,9 @@ function Navbar () {
                   <li>
                     <Link
                       to='/tnc'
-                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                      className={`block md:px-4 transition hover:hover:text-sky-400 ${
                         activeLink === '/tnc' &&
-                        'text-sky-400 dark:text-sky-400Light'
+                        'text-sky-400'
                       }`}
                       onClick={() => handleLinkClick('/tnc')}
                     >
@@ -126,9 +126,9 @@ function Navbar () {
                   <li>
                     <Link
                       to='/pnp'
-                      className={`block md:px-4 transition hover:hover:text-sky-400 dark:hover:hover:text-sky-400Light ${
+                      className={`block md:px-4 transition hover:hover:text-sky-400 ${
                         activeLink === '/pnp' &&
-                        'text-sky-400 dark:text-sky-400Light'
+                        'text-sky-400'
                       }`}
                       onClick={() => handleLinkClick('/pnp')}
                     >
@@ -138,14 +138,14 @@ function Navbar () {
                 </ul>
               </div>
 
-              <div className='w-full space-y-2 border-primary/10 dark:border-gray-700 -ml-1 sm:flex-row lg:space-y-0 md:w-max'>
+              <div className='w-full space-y-2 border-gray-700 -ml-1 sm:flex-row lg:space-y-0 md:w-max'>
                 <Link
                   to='https://dusunkarangber.my.id/'
                   target='_blank'
                   rel='noreferrer'
-                  className='relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-600 dark:before:bg-sky-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95'
+                  className='relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95'
                 >
-                  <span className='relative text-sm font-semibold text-white dark:text-gray-900'>
+                  <span className='relative text-sm font-semibold text-white'>
                     Our Official Website
                   </span>
                 </Link>

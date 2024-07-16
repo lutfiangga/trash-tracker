@@ -261,7 +261,7 @@ export const aboutWebsite = [
   {
     id: 1,
     title: 'What is Runyam?',
-    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    desk: 'A website to provide information regarding waste collection routes in our service area. Users can see an interactive map showing the path and times for waste pickup.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -324,7 +324,7 @@ export const aboutWebsite = [
   {
     id: 4,
     title: 'Why must be Runyam?',
-    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    desk: 'Runyam helps you monitor waste collection routes in Karangber Hamlet, Pajangan, Bantul',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -345,7 +345,7 @@ export const aboutWebsite = [
   {
     id: 5,
     title: 'What are the benefits of this website?',
-    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    desk: 'The waste collection schedule becomes more regular and consistent, thereby reducing public complaints. Transparency and accountability are enhanced by monitoring dump truck positions in real-time, ensuring all routes are traveled according to schedule, and providing track records for reporting and analysis. Community services are improved with information on waste collection schedules and routes that can be accessed by the public, making it easier to prepare waste, and enabling quick responses to problems such as stuck trucks or incomplete routes.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -369,7 +369,7 @@ export const aboutDusun = [
   {
     id: 1,
     title: 'Where is Karangber Hamlet?',
-    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    desk: 'Karangber Pajangan Hamlet is located in Bantul Regency, Yogyakarta Special Region Province (DIY), Indonesia. More precisely, this hamlet is in Pajangan District, which is one of several sub-districts in Bantul Regency.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -390,7 +390,7 @@ export const aboutDusun = [
   {
     id: 2,
     title: 'Who is the head of village?',
-    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    desk: `The current head of Karangber hamlet is WHEWEN LAIL SHAPUTRA, S.Pd.`,
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -411,7 +411,7 @@ export const aboutDusun = [
   {
     id: 3,
     title: 'What potential is there in Krangber hamlet?',
-    desk: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.',
+    desk: 'Karangber Hamlet has diverse potential, ranging from the agricultural, livestock, agro-industry, to natural and cultural tourism sectors. Natural beauty, cultural richness and creative human resources are the basic capital for village development',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'

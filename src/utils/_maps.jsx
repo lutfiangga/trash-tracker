@@ -2,21 +2,21 @@ import React, { useEffect } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import Coordinates from './coordinates'
+const mapboxApi = import.meta.env.VITE_MAPBOX_API
 
 const PinPoints = () => {
   return [
-    { id: 'A', coordinates: [110.308543, -7.891692] },
-    { id: 'B', coordinates: [110.307128, -7.891622] },
-    { id: 'C', coordinates: [110.304595, -7.892419] },
-    { id: 'D', coordinates: [110.304867, -7.893281] },
-    { id: 'E', coordinates: [110.307, -7.892915] }
+    { id: 'A', jadwal: '08.30 WIB', coordinates: [110.308543, -7.891692] },
+    { id: 'B', jadwal: '08.45 WIB', coordinates: [110.307128, -7.891622] },
+    { id: 'C', jadwal: '09.00 WIB', coordinates: [110.304595, -7.892419] },
+    { id: 'D', jadwal: '09.10 WIB', coordinates: [110.304867, -7.893281] },
+    { id: 'E', jadwal: '09.30 WIB', coordinates: [110.307, -7.892915] }
   ]
 }
 
 const MapboxGLMap = () => {
   useEffect(() => {
-    mapboxgl.accessToken =
-      'pk.eyJ1IjoiZHdpaXdvaWkzMSIsImEiOiJjbHd5NTM5NmIxZDY1MmxxejY4Ymw5Z2YxIn0.Cn9SbJKzvGjmcyY3A5KwdQ'
+    mapboxgl.accessToken = mapboxApi
     const map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v12',
@@ -120,7 +120,9 @@ const MapboxGLMap = () => {
           .setLngLat(point.coordinates)
           .addTo(map)
           .setPopup(
-            new mapboxgl.Popup().setHTML(`<h3 className="">${point.id}</h3>`)
+            new mapboxgl.Popup().setHTML(
+              `<h3 className="">${point.id} <br/> Pukul ${point.jadwal}</h3>`
+            )
           )
       })
     })
