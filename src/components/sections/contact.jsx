@@ -10,7 +10,7 @@ const Contact = () => {
 
     // Simpan kode untuk mengirim pesan ke WhatsApp di sini
     const whatsappMessage = `Nama: ${name} \n Subjek: ${subject} \n Pesan: ${message}`
-    const whatsappLink = `https://wa.me/62882006559292?text=${encodeURIComponent(
+    const whatsappLink = `https://wa.me/6288xxxxxxxx?text=${encodeURIComponent(
       whatsappMessage
     )}`
 
