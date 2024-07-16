@@ -10,7 +10,7 @@ const Contact = () => {
 
     // Simpan kode untuk mengirim pesan ke WhatsApp di sini
     const whatsappMessage = `Nama: ${name} \n Subjek: ${subject} \n Pesan: ${message}`
-    const whatsappLink = `mailto:8193secure@yogirt.com?text=${encodeURIComponent(
+    const whatsappLink = `https://wa.me/628989061375?text=${encodeURIComponent(
       whatsappMessage
     )}`
 
