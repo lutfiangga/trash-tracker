@@ -2,17 +2,8 @@ import React, { useEffect } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import Coordinates from './coordinates'
+import PinPoints from './pinPoint'
 const mapboxApi = import.meta.env.VITE_MAPBOX_API
-
-const PinPoints = () => {
-  return [
-    { id: 'A', jadwal: '08.30 WIB', coordinates: [110.308543, -7.891692] },
-    { id: 'B', jadwal: '08.45 WIB', coordinates: [110.307128, -7.891622] },
-    { id: 'C', jadwal: '09.00 WIB', coordinates: [110.304595, -7.892419] },
-    { id: 'D', jadwal: '09.10 WIB', coordinates: [110.304867, -7.893281] },
-    { id: 'E', jadwal: '09.30 WIB', coordinates: [110.307, -7.892915] }
-  ]
-}
 
 const MapboxGLMap = () => {
   useEffect(() => {

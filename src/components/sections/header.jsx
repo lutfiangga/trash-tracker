@@ -12,19 +12,21 @@ function Header () {
         <div className='relative pt-40 pb-20 lg:pt-36 bg-gray-900 mx-8'>
           <div className='relative xl:container m-auto px-6 md:px-12 lg:px-6'>
             <h1 className='sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl text-white'>
-              Monitor Garbage Collection <br className='lg:block hidden' />{' '}
+              Pantau Rute Pengambilan Sampah
+              <br className='lg:block hidden' />{' '}
               <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-300'>
-                Routes Easily
+                Dengan Mudah
               </span>
               .
             </h1>
             <div className='lg:flex'>
               <div className='relative mt-8 md:mt-16 space-y-12 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12'>
                 <p className='sm:text-lg text-gray-300 lg:w-10/12'>
-                  Welcome to our garbage collection route monitoring service!
-                  With our platform, you can monitor and optimize garbage
-                  collection routes efficiently. Together we keep our city
-                  clean. Start monitoring your garbage collection routes now!
+                  Selamat datang di layanan pemantauan rute pengumpulan sampah
+                  kami! Dengan platform kami, Anda dapat memantau dan
+                  mengoptimalkan rute pengumpulan sampah secara efisien.
+                  Bersama-sama kita menjaga kota kita tetap bersih. Mulai pantau
+                  rute pengumpulan sampah Anda sekarang!
                 </p>
                 <span className='block font-semibold text-gray-400'>
                   The Best Partner in Developing this Stunning Website.

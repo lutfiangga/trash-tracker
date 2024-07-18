@@ -28,18 +28,19 @@ const Contact = () => {
         <div className='border border-blue-800 flex flex-col lg:flex-row items-center justify-evenly px-8 lg:px-auto py-14 rounded-3xl mx-12 relative'>
           <div className='lg:text-left mb-10 lg:mb-0 lg:w-1/2 text-justify'>
             <h1 className='text-5xl font-bold leading-tight text-gray-300 sm:text-5xl lg:text-7xl'>
+              Kontak{' '}
               <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-300'>
-                Contact
+                Kami
               </span>
             </h1>
             <p className='max-w-xl mx-auto mt-4 sm:mr-24 text-base leading-relaxed text-gray-600'>
-              Have criticism and suggestions? <br /> Your criticism and
-              suggestions really help us in making developments.
+              Punya Kritik dan Saran? <br /> Kritik dan saran anda membantu kami
+              dalam proses pengembangan.
             </p>
           </div>
 
           <div className='hidden xl:block xl:absolute right-0'>
-              <svg
+            <svg
               width='700'
               height='700'
               viewBox='-50 0 500 500'
@@ -96,7 +97,7 @@ const Contact = () => {
               <div className='py-2'>
                 <input
                   type='text'
-                  placeholder='Name'
+                  placeholder='Nama'
                   value={name}
                   onChange={e => setName(e.target.value)}
                   className='px-4 py-4 w-full md:w-96 border border-blue-800 bg-gray-900 placeholder-gray-600 text-gray-300 rounded-xl outline-none'
@@ -107,7 +108,7 @@ const Contact = () => {
               <div className='py-2'>
                 <input
                   type='text'
-                  placeholder='Subject'
+                  placeholder='Subjek'
                   value={subject}
                   onChange={e => setSubject(e.target.value)}
                   className='px-4 py-4 w-full md:w-96 border border-blue-800 bg-gray-900 placeholder-gray-600 text-gray-300 rounded-xl outline-none'
@@ -118,7 +119,7 @@ const Contact = () => {
               <div className='py-2'>
                 <textarea
                   type='text'
-                  placeholder='Message'
+                  placeholder='Pesan'
                   value={message}
                   onChange={e => setMessage(e.target.value)}
                   className='px-4 py-4 w-full md:w-96 border border-blue-800 bg-gray-900 placeholder-gray-600 text-gray-300 rounded-xl outline-none'
@@ -128,8 +129,11 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className='py-2'>
-                <button type='submit' className='w-full py-4 font-semibold text-lg text-white bg-sky-600 rounded-xl hover:bg-blue-800 transition ease-in-out duration-500'>
-                  Send
+                <button
+                  type='submit'
+                  className='w-full py-4 font-semibold text-lg text-white bg-sky-600 rounded-xl hover:bg-blue-800 transition ease-in-out duration-500'
+                >
+                  Kirim
                 </button>
               </div>
             </form>

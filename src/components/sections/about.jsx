@@ -28,16 +28,16 @@ function AboutUs () {
             <h2 className='text-5xl font-bold leading-tight text-gray-900 dark:text-gray-300 sm:text-5xl lg:text-7xl'>
               {activeLink === '/website' ? (
                 <>
-                  About{' '}
+                  Tentang{' '}
                   <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-500 dark:to-cyan-300'>
-                    Website
+                    Situs Web
                   </span>
                 </>
               ) : (
                 <>
-                  About the{' '}
+                  Tentang{' '}
                   <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-500 dark:to-cyan-300'>
-                    Hamlet
+                    Dusun
                   </span>
                 </>
               )}
@@ -62,7 +62,7 @@ function AboutUs () {
                   }`}
                   onClick={() => handleLinkClick('/website')}
                 >
-                  About Website
+                  Tentang Situs Web
                 </a>
                 <a
                   href='#dusun'
@@ -72,7 +72,7 @@ function AboutUs () {
                   }`}
                   onClick={() => handleLinkClick('/dusun')}
                 >
-                  About the Hamlet
+                  Tentang Dusun
                 </a>
               </div>
             </div>

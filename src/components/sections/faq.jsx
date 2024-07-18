@@ -7,13 +7,13 @@ function Faq () {
         <div class='px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl'>
           <div class='max-w-2xl mx-auto text-center'>
             <h2 class='text-5xl font-bold leading-tight text-gray-300 sm:text-5xl lg:text-7xl'>
-              Frequently Asked{' '}
+              Pertanyaan yang Sering{' '}
               <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-300'>
-                Questions
+                Diajukan
               </span>
             </h2>
             <p class='max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600'>
-              Find Answers to Frequently Asked Questions
+              Temukan Jawaban atas Pertanyaan Umum yang Sering Diajukan
             </p>
           </div>
 
@@ -33,9 +33,7 @@ function Faq () {
                     </span>
                   </summary>
 
-                  <p class='mt-4 leading-relaxed text-gray-500'>
-                    {item.desk}
-                  </p>
+                  <p class='mt-4 leading-relaxed text-gray-500'>{item.desk}</p>
                 </details>
               )
             })}

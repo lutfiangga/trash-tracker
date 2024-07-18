@@ -96,7 +96,7 @@ function Navbar () {
                       }`}
                       onClick={() => handleLinkClick('/')}
                     >
-                      <span>Home</span>
+                      <span>Beranda</span>
                     </Link>
                   </li>
                   <li>
@@ -108,7 +108,7 @@ function Navbar () {
                       }`}
                       onClick={() => handleLinkClick('/about')}
                     >
-                      <span>About Us</span>
+                      <span>Tentang Kami</span>
                     </Link>
                   </li>
                   <li>
@@ -120,7 +120,7 @@ function Navbar () {
                       }`}
                       onClick={() => handleLinkClick('/tnc')}
                     >
-                      <span>Terms & Conditions</span>
+                      <span>Syarat dan Ketentuan</span>
                     </Link>
                   </li>
                   <li>
@@ -132,7 +132,7 @@ function Navbar () {
                       }`}
                       onClick={() => handleLinkClick('/pnp')}
                     >
-                      <span>Privacy Policy</span>
+                      <span>Kebijakan Privasi</span>
                     </Link>
                   </li>
                 </ul>
@@ -146,7 +146,7 @@ function Navbar () {
                   className='relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95'
                 >
                   <span className='relative text-sm font-semibold text-white'>
-                    Our Official Website
+                    Website Dusun Karangber
                   </span>
                 </Link>
               </div>

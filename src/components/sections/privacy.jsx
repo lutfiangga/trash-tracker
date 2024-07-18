@@ -5,53 +5,53 @@ function Privacy () {
         {/* <!-- Privacy Policy --> */}
         <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold mb-12 text-gray-300 text-center'>
           <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-300'>
-            Privacy Policy
+            Kebijakan Privasi
           </span>
         </h1>
         <div className='text-gray-500 gap-4'>
           <div>
             <h3 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-300 my-6'>
-              Information
+              Informasi
             </h3>
             <ul class='list-disc ml-6'>
               <li class='mb-2 text-base md:text-md lg:text-lg '>
-                We may collect personal information such as your name, email address, and other contact information that you voluntarily provide to us.
+                Kami dapat mengumpulkan informasi pribadi seperti nama, alamat email, dan informasi kontak lainnya yang Anda berikan secara sukarela kepada kami.
               </li>
               <li class='mb-2 text-base md:text-md lg:text-lg '>
-                We may also collect non-personal information such as usage data, demographic information, and technical information when you access or use our services.
+                Kami juga dapat mengumpulkan informasi non-pribadi seperti data penggunaan, informasi demografis, dan informasi teknis saat Anda mengakses atau menggunakan layanan kami.
               </li>
             </ul>
           </div>
 
           <div>
             <h3 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-300 my-6'>
-              Use of Information
+             Penggunaan informasi
             </h3>
             <ul class='list-disc ml-6'>
               <li class='mb-2 text-base md:text-md lg:text-lg '>
-                We use the information we collect to provide, operate and improve our services.
+                Kami menggunakan informasi yang kami kumpulkan untuk menyediakan, mengoperasikan, dan meningkatkan layanan kami.
               </li>
               <li class='mb-2 text-base md:text-md lg:text-lg '>
-                Your personal information will not be sold, rented or shared with third parties without your consent, unless required by law.
+                Informasi pribadi Anda tidak akan dijual, disewa atau dibagikan dengan pihak ketiga tanpa persetujuan Anda, kecuali jika diharuskan oleh hukum.
               </li>
             </ul>
           </div>
 
           <div>
             <h3 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-300 my-6'>
-              Information Security
+              Informasi keamanan
             </h3>
             <p className='text-base md:text-md lg:text-lg'>
-              We take appropriate security measures to protect your personal information from unauthorized access or unauthorized use.
+              Kami mengambil langkah -langkah keamanan yang tepat untuk melindungi informasi pribadi Anda dari akses yang tidak sah atau penggunaan yang tidak sah.
             </p>
           </div>
 
           <div>
             <h3 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-300 my-6'>
-              Changes to the Privacy Policy
+             Perubahan Kebijakan Privasi
             </h3>
             <p className='text-base md:text-md lg:text-lg'>
-              This privacy policy may change from time to time. Such changes will be posted on this page and become effective immediately upon posting.
+              Kebijakan privasi ini dapat berubah dari waktu ke waktu. Perubahan seperti itu akan diposting di halaman ini dan menjadi efektif segera setelah posting.
             </p>
           </div>
         </div>

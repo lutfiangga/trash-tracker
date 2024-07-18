@@ -31,25 +31,25 @@ export const dataMitra = [
 export const features = [
   {
     id: 1,
-    title: 'Interactive map',
-    desk: 'Displays the route the waste collection truck will take.',
+    title: 'Peta Interaktif',
+    desk: 'Menampilkan rute yang akan diambil truk pengumpul sampah.',
     icon: <TbMapStar size={24} />
   },
   {
     id: 2,
-    title: 'Route Markers',
+    title: 'Penanda Rute',
     desk: 'Benefit from our cutting-edge risk assessment model, providing accurate insights into potential risks and ensuring your coverage aligns with your risk profile.',
     icon: <FaRoute size={24} />
   },
   {
     id: 3,
-    title: 'Location Markers',
+    title: 'Penanda Lokasi',
     desk: 'Experience cost-effective insurance solutions. We keep our premiums competitive, ensuring you receive optimal coverage without breaking the bank.',
     icon: <RiMapPinRangeLine size={24} />
   },
   {
     id: 4,
-    title: 'Collection Time',
+    title: 'Waktu Pengambilan',
     desk: `Our dedicated support team is available around the clock toassist you. Whether it's day or night, we're here to address your insurance-related queries promptly.`,
     icon: <RiMapPinTimeLine size={24} />
   }
@@ -58,8 +58,8 @@ export const features = [
 export const faq = [
   {
     id: 1,
-    title: 'What is the purpose of this website?',
-    desk: 'This website was created to provide information regarding waste collection routes in our service area. Users can see an interactive map showing the path and times for waste pickup.',
+    title: 'Apa tujuan dari situs web ini?',
+    desk: 'Website ini dibuat untuk memberikan informasi mengenai jalur pengumpulan sampah di wilayah layanan kami. Pengguna dapat melihat peta interaktif yang menunjukkan jalur dan waktu pengambilan sampah.',
     iconDeactive: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -95,8 +95,8 @@ export const faq = [
   },
   {
     id: 2,
-    title: 'How to use interactive maps?',
-    desk: 'You can use the map by panning to see different areas, as well as zooming in/out using the controls on the map or using your mouse scroll. Click on a marker or route line for more information.',
+    title: 'Bagaimana cara menggunakan peta interaktif?',
+    desk: 'Anda dapat menggunakan peta dengan menggeser untuk melihat area yang berbeda, serta memperbesar/memperkecil menggunakan kontrol pada peta atau menggunakan gulir mouse Anda. Klik pada penanda atau garis rute untuk informasi lebih lanjut.',
     iconDeactive: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -132,8 +132,8 @@ export const faq = [
   },
   {
     id: 3,
-    title: 'How do I know when my trash will be picked up?',
-    desk: 'Click on a marker or route line on the map to see trash pickup times in your area. This information includes the day and time of collection.',
+    title: 'Bagaimana saya tahu kapan sampah saya akan diambil?',
+    desk: 'Klik penanda atau garis rute di peta untuk melihat waktu pengambilan sampah di wilayah Anda. Informasi ini mencakup waktu pengumpulan.',
     iconDeactive: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -169,8 +169,8 @@ export const faq = [
   },
   {
     id: 4,
-    title: 'How do I contact the waste hauling service if I have questions?',
-    desk: 'Contact information is available at the bottom of the page. You can contact us by phone, email or social media.',
+    title: 'Bagaimana cara menghubungi layanan pengangkutan sampah jika saya memiliki pertanyaan?',
+    desk: 'Informasi kontak tersedia di bagian bawah halaman. Anda dapat menghubungi kami melalui telepon, email atau media sosial.',
     iconDeactive: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -206,8 +206,8 @@ export const faq = [
   },
   {
     id: 5,
-    title: 'How can I provide feedback about this service?',
-    desk: 'We really appreciate your input. Please send your suggestions or feedback via the contact form available on the website or contact us via email.',
+    title: 'Bagaimana saya bisa memberikan masukan tentang layanan ini?',
+    desk: 'Kami sangat menghargai masukan Anda. Silakan kirimkan saran atau masukan Anda melalui formulir kontak yang tersedia di website atau hubungi kami melalui email.',
     iconDeactive: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -260,8 +260,8 @@ export const Map = {
 export const aboutWebsite = [
   {
     id: 1,
-    title: 'What is Runyam?',
-    desk: 'A website to provide information regarding waste collection routes in our service area. Users can see an interactive map showing the path and times for waste pickup.',
+    title: 'Apa itu Runyam?',
+    desk: 'Sebuah website untuk memberikan informasi mengenai rute pengumpulan sampah di area layanan kami. Pengguna dapat melihat peta interaktif yang menunjukkan jalur dan waktu pengambilan sampah.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -281,8 +281,8 @@ export const aboutWebsite = [
   },
   {
     id: 2,
-    title: 'Our Vision?',
-    desk: 'Our vision is to lead the way in smart waste management by harnessing technology to create sustainable and efficient waste collection systems.',
+    title: 'Apa Visi Runyam?',
+    desk: 'Visi kami adalah menjadi yang terdepan dalam pengelolaan sampah cerdas dengan memanfaatkan teknologi untuk menciptakan sistem pengumpulan sampah yang berkelanjutan dan efisien.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -302,8 +302,8 @@ export const aboutWebsite = [
   },
   {
     id: 3,
-    title: 'Our Mission?',
-    desk: 'Our mission is to provide municipalities, waste management companies, and communities with an innovative solution to streamline waste collection routes.',
+    title: 'Apa Misi Runyam?',
+    desk: 'Misi kami adalah memberikan solusi inovatif kepada pemerintah kota, perusahaan pengelola limbah, dan komunitas untuk menyederhanakan rute pengumpulan limbah.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -323,8 +323,8 @@ export const aboutWebsite = [
   },
   {
     id: 4,
-    title: 'Why must be Runyam?',
-    desk: 'Runyam helps you monitor waste collection routes in Karangber Hamlet, Pajangan, Bantul',
+    title: 'Kenapa harus Runyam?',
+    desk: 'Karena Runyam membantu Anda memantau jalur pengumpulan sampah di Dusun Karangber, Pajangan, Bantul',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -344,8 +344,8 @@ export const aboutWebsite = [
   },
   {
     id: 5,
-    title: 'What are the benefits of this website?',
-    desk: 'The waste collection schedule becomes more regular and consistent, thereby reducing public complaints. Transparency and accountability are enhanced by monitoring dump truck positions in real-time, ensuring all routes are traveled according to schedule, and providing track records for reporting and analysis. Community services are improved with information on waste collection schedules and routes that can be accessed by the public, making it easier to prepare waste, and enabling quick responses to problems such as stuck trucks or incomplete routes.',
+    title: 'Apa manfaat dari Runyam?',
+    desk: 'Jadwal pengumpulan sampah menjadi lebih teratur dan konsisten sehingga mengurangi keluhan masyarakat. Transparansi dan akuntabilitas ditingkatkan dengan memantau posisi truk sampah dan memastikan semua rute dilalui sesuai jadwal. Pelayanan kepada masyarakat ditingkatkan dengan informasi jadwal dan rute pengumpulan sampah yang dapat diakses oleh masyarakat, sehingga memudahkan penyiapan sampah, dan memungkinkan respon cepat terhadap permasalahan seperti truk macet atau rute yang tidak dilewati.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -368,8 +368,8 @@ export const aboutWebsite = [
 export const aboutDusun = [
   {
     id: 1,
-    title: 'Where is Karangber Hamlet?',
-    desk: 'Karangber Pajangan Hamlet is located in Bantul Regency, Yogyakarta Special Region Province (DIY), Indonesia. More precisely, this hamlet is in Pajangan District, which is one of several sub-districts in Bantul Regency.',
+    title: 'Dimana Dusun Karangber berada?',
+    desk: 'Dusun Karangber Pajangan terletak di Kabupaten Bantul, Provinsi Daerah Istimewa Yogyakarta (DIY), Indonesia. Lebih tepatnya dusun ini berada di Kecamatan Pajangan yang merupakan salah satu dari beberapa kecamatan di Kabupaten Bantul.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -389,8 +389,8 @@ export const aboutDusun = [
   },
   {
     id: 2,
-    title: 'Who is the head of village?',
-    desk: `The current head of Karangber hamlet is WHEWEN LAIL SHAPUTRA, S.Pd.`,
+    title: 'Siapa Kepala Dusun Karangber?',
+    desk: `Kepala Dusun Karangber saat ini adalah WHEWEN LAIL SHAPUTRA, S.Pd.`,
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -410,8 +410,8 @@ export const aboutDusun = [
   },
   {
     id: 3,
-    title: 'What potential is there in Krangber hamlet?',
-    desk: 'Karangber Hamlet has diverse potential, ranging from the agricultural, livestock, agro-industry, to natural and cultural tourism sectors. Natural beauty, cultural richness and creative human resources are the basic capital for village development',
+    title: 'Potensi apa saja yang ada di Dusun Karangber?',
+    desk: 'Dusun Karangber mempunyai potensi yang beragam, mulai dari sektor pertanian, peternakan, agroindustri, hingga wisata alam dan budaya. Keindahan alam, kekayaan budaya dan sumber daya manusia yang kreatif menjadi modal dasar pembangunan desa.',
     icon: (
       <svg
         xmlns='http://www.w3.org/2000/svg'

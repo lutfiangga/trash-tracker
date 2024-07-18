@@ -6,13 +6,13 @@ function Feature () {
       <section className='lg:col-span-2'>
         <div className='md:pr-6 lg:pr-0 '>
           <h2 className='lg:text-7xl text-5xl text-white font-semibold mx-auto text-center md:text-left'>
-            Our{' '}
+            Fitur{' '}
             <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-cyan-300'>
-              Features
+              Kami
             </span>
           </h2>
           <p className='mt-6text-gray-500'>
-            Experience seamless navigation and organization with our array of features tailored to enhance your journey, every step of the way.
+            Rangkaian fitur khusus kami untuk menyempurnakan pengambilan sampah di Dusun Karangber.
           </p>
         </div>
         <div className='mx-auto items-center mt-4 max-w-2xl sm:mt-6 lg:mt-8 lg:max-w-4xl'>
